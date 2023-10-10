@@ -1,7 +1,12 @@
-from django.template.response import TemplateResponse
+from django.shortcuts import render
+from django.http import HttpResponse
+import logging
+
+logger = logging.getLogger(__name__)
+
 # Create your views here.
 
 def index(request):
-    # 3/0 # for test process_exception()
-    context = {'data': "Hello, world. You're at the musics index."}
-    return TemplateResponse(request,'musics/index.html', context)
+    # 1/0
+    logger.warning('enter index views')
+    return HttpResponse("Hello, World!")

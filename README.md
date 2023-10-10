@@ -4,7 +4,7 @@
 
 * [Youtube Tutorial - 介紹 django 中的 middleware](https://youtu.be/upJY9sYbQdY)
 
-本篇 django 版本使用 `Django==3.0.3`, 如果不知道什麼是 Django, 建議可以閱讀
+本篇 django 版本使用 `Django==4.2.6`, 如果不知道什麼是 Django, 建議可以閱讀
 
 [Django 基本教學 - 從無到有 Django-Beginners-Guide， 教你建立自己的第一個 Django 程式](https://github.com/twtrubiks/django-tutorial)
 
